@@ -2,6 +2,8 @@
 #ifndef __CLINICAL_MANAGEMENT_SYSTEM_H__
 #define __CLINICAL_MANAGEMENT_SYSTEM_H__
 
+#include "STD_TYPES.h" 
+
 /*--------------------------Funtions Prototypes----------------------------------*/
 
 void admin_mode();
@@ -48,6 +50,6 @@ struct patient_node
 };
 
 
-u16 reservations[] = {0 /*2pm to 2:30pm*/, 0 /*2:30pm to 3pm*/, 0 /*3pm to 3:30pm*/, 0 /*4pm to 4:30pm*/, 0 /*4:30pm to 5pm*/};
+//u16 reservations[] = {0 /*2pm to 2:30pm*/, 0 /*2:30pm to 3pm*/, 0 /*3pm to 3:30pm*/, 0 /*4pm to 4:30pm*/, 0 /*4:30pm to 5pm*/};
 
 #endif /*__CLINICAL_MANAGEMENT_SYSTEM_H__*/
