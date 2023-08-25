@@ -35,7 +35,7 @@ typedef enum
 {
     True,
     False,
-    NOT_ENTERED = 404,
+    NOT_ENTERED = 0,
     admin_password = 1234,
     EMPTY = 0
 } Enut_CMS;
