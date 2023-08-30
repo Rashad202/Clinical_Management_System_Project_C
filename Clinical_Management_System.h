@@ -1,8 +1,15 @@
 
-#ifndef __CLINICAL_MANAGEMENT_SYSTEM_H__
-#define __CLINICAL_MANAGEMENT_SYSTEM_H__
+/*
+ * Clinical_Management_System.h
+ *
+ *  Created on: 27 Aug 2023
+ *      Author: Rashad
+ */
 
-#include "STD_TYPES.h" 
+#ifndef CLINICAL_MANAGEMENT_SYSTEM_H_
+#define CLINICAL_MANAGEMENT_SYSTEM_H_
+
+#include "STD_TYPES.h"
 
 /*--------------------------Funtions Prototypes----------------------------------*/
 
@@ -26,12 +33,13 @@ void user_mode();
 
 void view_patient_record();
 
+
 void view_today_reservation();
 
 
-/*----------------------User defined types----------------------------------------*/
+//------------------>> User defined types
 
-typedef enum 
+typedef enum
 {
     True,
     False,
@@ -40,7 +48,7 @@ typedef enum
     EMPTY = 0
 } Check_Status_CMS;
 
-struct patient_node 
+struct patient_node
 {
     u8 name[20];
     u16 age;
@@ -52,4 +60,6 @@ struct patient_node
 
 
 
-#endif /*__CLINICAL_MANAGEMENT_SYSTEM_H__*/
+
+
+#endif /* CLINICAL_MANAGEMENT_SYSTEM_H_ */
